@@ -215,7 +215,7 @@ automatically created one:
     }
 }
 {
-    "name": "/roll",
+    "name": "/rolldice",
     "context": {
         "trace_id": "0x48da59d77e13beadd1a961dc8fcaa74e",
         "span_id": "0x84f8c5d92970d94f",
@@ -256,7 +256,7 @@ automatically created one:
 
 </details>
 
-The `parent_id` of `do_roll` is the same is the `span_id` for `/rolldice`,
+The `parent_id` of `do_roll` is the same as the `span_id` for `/rolldice`,
 indicating a parent-child reletionship!
 
 ### Metrics
